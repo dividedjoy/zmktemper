@@ -160,6 +160,8 @@
   &bt BT_CLR_ALL  &trans  &trans  &trans  &trans    &trans         &trans  &trans                &trans                 &trans
                           &trans  &trans  &trans    &trans         &trans  &trans
             >;
+
+            label = "BT";
         };
     };
 };
