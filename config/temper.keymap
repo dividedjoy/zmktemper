@@ -136,7 +136,7 @@
         num_layer {
             display-name = "NUMBER";
             bindings = <
-  &kp GRAVE                 &none          &none           &none            &none     &kp MINUS      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &hm RIGHT_BRACKET LEFT_BRACKET
+  &kp GRAVE                 &kp TILDE      &none           &none            &none     &kp MINUS      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &hm RIGHT_BRACKET LEFT_BRACKET
   &kp LS(LC(LG(NUMBER_4)))  &kp LG(LS(S))  &none           &kp LEFT_SHIFT   &none     &kp EQUAL      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &hm RIGHT_PARENTHESIS LEFT_PARENTHESIS
   &kp LG(LS(Z))             &none          &kp LEFT_ARROW  &kp RIGHT_ARROW  &none     &kp SQT        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &hm RIGHT_BRACE LEFT_BRACE
                                            &trans          &trans           &trans    &kp BACKSPACE  &kp N0        &kp DOT
