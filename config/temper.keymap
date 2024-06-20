@@ -124,7 +124,7 @@
         compatible = "zmk,keymap";
 
         qwerty_layer {
-            display-name = "QWERTY";
+            display-name = "Base";
             bindings = <
   &hm ESCAPE Q  &kp W               &kp E               &kp R        &kp T                        &kp Y            &kp U        &kp I          &kp O    &hm BACKSLASH P
   &kp A         &hm LEFT_CONTROL S  &hm LEFT_ALT D      &kp F        &kp G                        &kp H            &kp J        &kp K          &kp L    &kp ENTER
@@ -134,7 +134,7 @@
         };
 
         num_layer {
-            display-name = "NUMBER";
+            display-name = "Num";
             bindings = <
   &kp GRAVE                 &kp TILDE      &none           &none            &none     &kp MINUS      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &hm RIGHT_BRACKET LEFT_BRACKET
   &kp LS(LC(LG(NUMBER_4)))  &kp LG(LS(S))  &none           &kp LEFT_SHIFT   &none     &kp EQUAL      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &hm RIGHT_PARENTHESIS LEFT_PARENTHESIS
@@ -144,7 +144,7 @@
         };
 
         nav_layer {
-            display-name = "NAV";
+            display-name = "Nav";
             bindings = <
   &none  &trans  &trans  &trans  &trans    &trans             &none       &kp UP_ARROW  &none       &kp RG(BACKSPACE)
   &none  &none   &none   &trans  &trans    &kp C_VOLUME_UP    &kp LEFT    &kp DOWN      &kp RIGHT   &gresc
