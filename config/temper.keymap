@@ -126,10 +126,10 @@
         qwerty_layer {
             display-name = "Base";
             bindings = <
-  &hm ESCAPE Q  &kp W               &kp E               &kp R        &kp T                    &kp Y            &kp U        &kp I          &kp O    &hm BACKSLASH P
-  &kp A         &hm LEFT_CONTROL S  &hm LEFT_ALT D      &kp F        &kp G                    &kp H            &kp J        &kp K          &kp L    &kp ENTER
-  &kp Z         &kp X               &kp C               &kp V        &kp B                    &kp N            &kp M        &kp COMMA      &kp DOT  &hm QUESTION SLASH
-                                    &hm LEFT_SHIFT TAB  &lt 1 SPACE  &hm LEFT_GUI CAPSLOCK    &lt 3 LG(SPACE)  &lt 2 SPACE  &kp BACKSPACE
+  &hm ESCAPE Q  &kp W               &kp E               &kp R                  &kp T          &kp Y        &kp U          &kp I            &kp O    &hm BACKSLASH P
+  &kp A         &hm LEFT_CONTROL S  &hm LEFT_ALT D      &kp F                  &kp G          &kp H        &kp J          &kp K            &kp L    &kp ENTER
+  &kp Z         &kp X               &kp C               &kp V                  &kp B          &kp N        &kp M          &kp COMMA        &kp DOT  &hm QUESTION SLASH
+                                    &hm LEFT_SHIFT TAB  &hm LEFT_GUI CAPSLOCK  &lt 1 SPACE    &lt 2 SPACE  &kp BACKSPACE  &lt 3 LG(SPACE)
             >;
         };
 
