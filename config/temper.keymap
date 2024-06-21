@@ -96,7 +96,7 @@
 
             #binding-cells = <2>;
             flavor = "tap-preferred";
-            tapping-term-ms = <120>;
+            tapping-term-ms = <130>;
         };
 
         ltq: ltq {
@@ -117,6 +117,11 @@
             bindings = <&kp SEMICOLON>;
             key-positions = <27 28>;
             layers = <0>;
+        };
+
+        softoff {
+            bindings = <&soft_off>;
+            key-positions = <32 33>;
         };
     };
 
