@@ -119,10 +119,15 @@
             layers = <0>;
         };
 
-        softoff {
+        softoffr {
             bindings = <&soft_off>;
-            key-positions = <2 32>;
+            key-positions = <32 0>;
             timeout-ms = <1000>;
+        };
+
+        softoffr {
+            bindings = <&soft_off>;
+            key-positions = <33 9>;
         };
     };
 
