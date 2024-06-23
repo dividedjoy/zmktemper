@@ -121,12 +121,6 @@
 
         softoffr {
             bindings = <&soft_off>;
-            key-positions = <32 0>;
-            timeout-ms = <1000>;
-        };
-
-        softoffr {
-            bindings = <&soft_off>;
             key-positions = <33 9>;
         };
     };
